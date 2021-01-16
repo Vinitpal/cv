@@ -1,0 +1,178 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", sans-serif;
+}
+
+h1 {
+  color: #66bfbf;
+  margin: 50px auto 0 auto;
+  font-family: "Sacramento", cursive;
+  font-size: 5.625rem;
+}
+
+h2,
+h3 {
+  font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+  color: #66bfbf;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+h3 {
+  color: #11999e;
+}
+
+p {
+  color: #40514e;
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: 16px;
+}
+
+a {
+  color: #11999e;
+  text-decoration: none;
+}
+
+.top-container {
+  background-color: #e4f9f5;
+  padding: 20px;
+  padding: 100px;
+  position: relative;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 400px;
+}
+
+.middle-container img {
+  border-radius: 50%;
+}
+
+.profile {
+  line-height: 2;
+}
+
+.profile img {
+  margin-top: 40px;
+  height: 200px;
+}
+
+.profile h2 {
+  font-size: 2.25rem;
+  font-weight: bold;
+}
+
+.profile p {
+  width: 40%;
+  margin: auto;
+}
+
+.skills h2 {
+  font-size: 2.25rem;
+  font-weight: bold;
+}
+
+.skill-row {
+  margin: 110px auto;
+  line-height: 2;
+  width: 50%;
+  text-align: left;
+}
+
+.skill-row img {
+  width: 25%;
+}
+
+.code-img {
+  float: left;
+  margin-right: 30px;
+}
+
+.chillie-img {
+  float: right;
+  margin-left: 30px;
+}
+
+hr {
+  margin: 50px auto;
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 5%;
+}
+
+.contact-me {
+  line-height: 2;
+}
+
+.contact-me h2 {
+  font-size: 2.25rem;
+  font-weight: bold;
+}
+
+.contact-me p {
+  margin: auto auto 30px auto;
+  width: 40%;
+}
+
+.contact-me button {
+  background: linear-gradient(to bottom, #66bfbf 10%, teal 100%);
+  border: none;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  width: 140px;
+  height: 2.2rem;
+  outline: none;
+}
+
+.contact-me a {
+  color: white;
+}
+
+.contact-me button:hover {
+  background: linear-gradient(to bottom, teal 10%, #11999e 100%);
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  height: 9.375rem;
+  line-height: 2;
+  margin: 4rem auto 0 auto;
+  text-align: center;
+}
+
+.bottom-container a {
+  color: #eaf6f6;
+  display: inline-block;
+  font-family: "Montserrat", sans-serif;
+  margin: 40px 40px 0 40px;
+}
+
+.bottom-container a:hover {
+  color: #11999e;
+  text-decoration: underline;
+}
+
+.bottom-container p {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
